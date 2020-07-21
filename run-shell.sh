@@ -2,5 +2,5 @@
 
 # argument 1: Ubuntu version used as container tag
 
-docker run -it --rm -v $PWD:/public/Work dr-yocto:$1
+docker run -it --rm -v $PWD:/media/hdd2/PiYocto dr-yocto:$1
 
