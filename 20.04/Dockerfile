@@ -74,6 +74,6 @@ RUN groupadd -g $host_gid $USER_NAME && useradd -g $host_gid -m -s /bin/bash -u 
 # normal user. Hence, we switch to the newly created user embeddeduse.
 USER $USER_NAME
 
-WORKDIR /public/Work
+WORKDIR /media/hdd2/PiYocto
 
 
